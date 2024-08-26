@@ -447,6 +447,7 @@ MODAL
     font-weight: 700;
     text-align: center;
     padding: 28px;
+    z-index: -1;
 }
 
 
@@ -461,6 +462,10 @@ MODAL
     justify-content: center;
 }
 
+
+.modal__overlay--visible {
+    z-index: 1;
+}
 
 .fa-spinner {
     animation: spinner 750ms infinite;
