@@ -690,6 +690,7 @@ footer {
     display: flex;
     padding: 3% 0;
     z-index: 100;
+    position: relative;
 }
 
 
@@ -789,6 +790,7 @@ footer {
     left: 80vw;
 }
 
+
 /*
 
 
@@ -823,10 +825,6 @@ RESPONSIVE DESIGN
 
     .modal__half {
       width: 100%;
-    }
-
-    .modal--open #projects {
-        margin-top: 55px;
     }
 
   }
